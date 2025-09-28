@@ -75,11 +75,14 @@ def calculate_bmi(request):
         print("BMI calculated:", bmi)
 
     return render(request, "bmiapp/template.html", {"BMI": bmi})
+
+    urls.py
+    
 ```
 
 
 ## SERVER SIDE PROCESSING:
-
+![alt text](<Screenshot 2025-09-28 180306.png>)
 
 
 ## HOMEPAGE:
